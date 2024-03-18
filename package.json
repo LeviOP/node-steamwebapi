@@ -1,0 +1,26 @@
+{
+    "name": "steamwebapi",
+    "version": "1.0.0",
+    "description": "Simple Steam Web API wrapper that provides TypeScript types based on inputs.",
+    "main": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "type": "module",
+    "scripts": {
+        "build": "tsup src/index.ts --dts --sourcemap --format esm"
+    },
+    "keywords": [],
+    "author": "LeviOP",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/jsdom": "^21.1.6",
+        "@types/node": "^20.11.24",
+        "eslint": "^8.57.0",
+        "tsup": "^8.0.2",
+        "typescript": "^5.3.3",
+        "typescript-eslint": "^7.1.0"
+    },
+    "dependencies": {
+        "jsdom": "^24.0.0",
+        "node-fetch": "^3.3.2"
+    }
+}
